@@ -15,10 +15,9 @@
         width: 100%;
     }
 
-
     .ssiwrap-item-in {
-        flex-direction: column;
-        align-items: flex-start;
+        /* flex-direction: column; */
+        align-items: center;
     }
     .ssiw-gift-wrap-in-bottom-top {
         flex-direction: column;    
@@ -28,22 +27,26 @@
         flex-direction: column;
     }
      .ssiwrap-item-in {
-        gap: 10px;
+        gap: 0px;
     }
     .ssiwrap-item-in .ssiw-ii-left{
         width: 100%;
         justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .ssi-content{
+        align-items: flex-start;
     }
     .sfw-item{
         gap: 10px;
         justify-content: flex-end;
-        flex-direction: column;
         align-items: flex-end;
         margin-bottom: 0;
     }
-    .ssiw-ii-right{
+    /* .ssiw-ii-right{
         width: 100%;
-    }
+    } */
     .ssirp-discounted-price{
         text-align: end;
     }
