@@ -17,7 +17,7 @@
 
     .ssiwrap-item-in {
         /* flex-direction: column; */
-        align-items: center;
+        align-items: flex-end;
     }
     .ssiw-gift-wrap-in-bottom-top {
         flex-direction: column;    
@@ -41,7 +41,7 @@
     .sfw-item{
         gap: 10px;
         justify-content: flex-end;
-        align-items: flex-end;
+        align-items: center;
         margin-bottom: 0;
     }
     /* .ssiw-ii-right{
@@ -52,6 +52,13 @@
     }
     .ssirp-main-price{
         text-align: end;
+    }
+    .sfti-image{
+        width: 25px;
+        height: 25px;
+    }
+    .sfw-text{
+        font-size: 12px;
     }
 
 }
