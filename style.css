@@ -262,7 +262,6 @@ header {
     line-height: 120%;
     letter-spacing: -0.16px;
     text-align: center;
-    margin-bottom: 10px;
 
 }
 .ssiw-gift-wrap-in-bottom{
@@ -323,10 +322,11 @@ header {
     white-space: nowrap;
 }
 .ssiw-gift-wrap-in-bottom-item{
-    width: 100%;             
+    width: 100%; 
+    /* opacity: 0.4; */
 }
 .ssiw-gift-wrap-in-bottom-item:active{
-
+    opacity: 1;
 }
 .ssiw-gift-wrap-in-bottom-item-in{
     display: flex;
@@ -613,8 +613,8 @@ header {
 }
 .ssiw-gw-ib-right .right{
      padding: 6px 10px 6px 0;
-     /* display: none;
-     visibility: hidden; */
+     display: none;
+     visibility: hidden;
 }
 
 
@@ -631,4 +631,23 @@ header {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+}
+.ssic-mid{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ssic-mid .options{
+    flex-direction: row;
+}
+.ssic-mid-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ssic-mid .opt{
+    gap: 0;
+}
+.ssic-mid .options select{
+    padding: 4px 50px 4px 4px;
 }
